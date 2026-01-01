@@ -20,7 +20,7 @@ const MessageList = () => {
                 formData.append("file", imageFile);
             }
 
-            const response = await fetch("https://Ai_applications_python_react.onrender.com/uploadfile/", {
+            const response = await fetch("https://ai-applications-python-react.onrender.com/uploadfile/", {
                 method: "POST",
                 body: formData,
             });
